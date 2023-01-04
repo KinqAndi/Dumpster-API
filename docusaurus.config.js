@@ -110,6 +110,7 @@ deploymentBranch: "gh-pages",
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['lua'],
       },
     }),
 };
