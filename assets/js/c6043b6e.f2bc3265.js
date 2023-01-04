@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdumpster_api=self.webpackChunkdumpster_api||[]).push([[217],{9035:e=>{e.exports=JSON.parse('{"permalink":"/Dumpster-API/blog/tags/hola","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

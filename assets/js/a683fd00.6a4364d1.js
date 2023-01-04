@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdumpster_api=self.webpackChunkdumpster_api||[]).push([[162],{5917:e=>{e.exports=JSON.parse('{"label":"facebook","permalink":"/Dumpster-API/blog/tags/facebook","allTagsPath":"/Dumpster-API/blog/tags","count":1}')}}]);

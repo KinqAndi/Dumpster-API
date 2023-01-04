@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdumpster_api=self.webpackChunkdumpster_api||[]).push([[433],{4115:s=>{s.exports=JSON.parse('{"label":"docusaurus","permalink":"/Dumpster-API/blog/tags/docusaurus","allTagsPath":"/Dumpster-API/blog/tags","count":4}')}}]);
