@@ -9,7 +9,7 @@ const config = {
   title: 'Dumpster',
   tagline: 'API',
   url: 'https://github.com',
-  baseUrl: '/dumpster-api/',
+  baseUrl: '/Dumpster-API/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
