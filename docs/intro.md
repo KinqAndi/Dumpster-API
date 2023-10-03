@@ -79,8 +79,6 @@ Adds a promise to the dumpster for cleanup.
 
 ---
 
----
-
 ### SetAttribute
 
 ```lua
