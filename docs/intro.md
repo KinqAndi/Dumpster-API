@@ -79,10 +79,32 @@ Adds a promise to the dumpster for cleanup.
 
 ---
 
+---
+
+### SetAttribute
+
+```lua
+Dumpster:SetAttribute(attrName: string, value: any) → Instance
+```
+
+Adds an attribute to the dumpster, helpful for tracking.
+
+---
+
+### GetAttribute
+
+```lua
+Dumpster:GetAttribute(attrName: string) → Instance
+```
+
+Returns the value that was given from dumpster:SetAttribute(attrName)
+
+---
+
 ### Connect
 
 ```lua
-Dumpster:Connect(signal: RBXScriptSignal, connectFunction: (any)→(any)) → any
+Dumpster:Connect(signal: RBXScriptSignal, connectFunction: (any)→(any), cleanupIdentifier: string?) → any
 ```
 
 Creates a connection and automatically adds it to the dumpster based on the signal provided along with the callback function.
@@ -95,7 +117,7 @@ Creates a connection and automatically adds it to the dumpster based on the sign
 Dumpster:AttachTo(item: any) → ()
 ```
 
-Attaches a dumpster to an Instance, TweenBase, Sound or AnimationTrack. Once the object's lifespan has ended, dumpster will be destroyed.
+Attaches a dumpster to an Instance, TweenBase, Sound, AnimationTrack, RBXScriptSignal, tables with Connect method. Once the object's lifespan has ended or said signal is fired, dumpster will be destroyed. (Most GCS cannot be attached to characters&players, but with dumpsters, you can!)
 
 ---
 
